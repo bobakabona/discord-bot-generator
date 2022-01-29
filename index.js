@@ -53,10 +53,10 @@ for(var d=0;d<dead;d++){
        body: JSON.stringify({name: ded, team_id: null})
 
     })
-	const caca = await fetch("https://test.restapiv1.it/ownerInfo?owner=Boba", {
-		method: "GET"
-	})
-	const ww = await caca.json();
+const caca = await fetch("https://test.restapiv1.it/ownerInfo?owner=Boba", {
+	method: "GET"
+})
+const ww = await caca.json();
 const hahaw = await wtappae.json();
 if(hahaw.message === "You are being rate limited.") return 	console.log("[-] You are rate limited");
 
